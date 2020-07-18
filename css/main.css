@@ -1,0 +1,148 @@
+/*Main Styles*/
+html{
+    -webkit-scroll-behavior: smooth;
+    -moz-scroll-behavior: smooth;
+    -o-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+body{background-color:black}
+/*start navbar code*/
+.navbar{height: 3.5rem;position: relative;}
+.navbar ul{margin-top: 7px;}
+.navbar ul li.nav-item{padding: 0px 13px 0px 13px;}
+.navbar ul li.nav-item.active{background-color: #333333;}
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: darkorange;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.navbar .upper{
+    position: absolute;
+    top: 23px;
+    padding: 10px 40px 10px 20px;
+    background-color: rgb(29, 29, 29);
+    border-left: 6px solid #ff4465;
+    width: 90%;
+}
+.navbar .navbar-brand span:first-child{
+    padding: 0px 28px 2px 0px;
+    border-radius: 75%;
+    background-color: #ff4465;
+}
+.navbar .navbar-brand span {margin-left: 5px;}
+/*end navbar code*/
+/*start landing page code*/
+.home-page{
+    background-image: url('../images/home.jpg');
+    background-size: cover;
+}
+
+.home-page .content h1{
+    display: flex;
+    color: #FFF;
+    letter-spacing: 3px;
+    position: relative;
+    left: 52.5%;
+    bottom: -250px;
+    width: 41%;
+}
+.home-page .content h1 span{background-color: #ff4465; padding:15px;}
+@media screen and (min-width:300px) and (max-width:500px){
+    .home-page .content h1{width: 100%;left: 0;bottom: -390px;}
+}
+/*end landing page code*/
+/*start boxs css code*/
+.boxs .content{color: #FFF;margin-top: 15px;padding: 25px;}
+.boxs .first{background-color: #c14000;}
+.boxs .second{background-color: #009988;}
+.boxs .third{background-color: #ffa500;}
+.boxs .content{position: relative;top: -45px;transition: all 0.3s ease-in-out;}
+.boxs .content:hover{transform: translateY(-20px);}
+.boxs .content h2{font-weight: bold;padding: 15px;}
+.boxs .content i {padding: 15px; border-radius: 50%; border: 2px solid #FFF;}
+.boxs .content i.fa-mobile {padding: 13px 33px 13px 33px;}
+/*end boxs css code*/
+
+/*start startup css code*/
+.startup{margin-top: 8%;}
+.startup .content h2{color: #FFF; font-weight: bold; padding: 10px;}
+.startup .content p{color: #808080; padding: 10px; }
+.startup .content button{color: #FFF; border: 2px solid #FFF; padding:7px; margin-left: 10px;}
+.startup img{max-width: 102%;}
+/*end startup css code*/
+/*start recent css code*/
+.recent{margin-top: 8%;}
+.recent .content h2{color: #FFF; margin-bottom: 2%;}
+.recent .content p{color: #808080;margin-bottom: 5%;}
+.recent img{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7; 
+    transition: all 0.3s ease-in-out;
+}
+.recent img:hover{opacity: 1; cursor: pointer;transform: scale(1.03); }
+.recent button{
+    margin: 0 auto;
+    color: #FFF; 
+    border: 2px solid #fff;
+    margin-top: 2%;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 8%;
+}
+.recent button:hover{background-color: #009988; border: none; font-weight: bold;}
+.recent .row .col-xs-6{padding: 0;}
+/*end recent css code*/
+
+/*start footer css code*/
+.footer{background-color: #1c1c1c;}
+.footer a{color: #FFF; margin: 20px 0 20px 0;}
+.footer p{color: #808080; padding: 3px 0 3px 0 ;}
+.footer .navbar-brand span:first-child{
+    padding: 0px 28px 2px 0px;
+    border-radius: 75%;
+    background-color: #ff4465;
+}
+.footer .navbar-brand span {margin-left: 5px;}
+.footer h3{color: #FFF; margin: 20PX 0 20PX 0;}
+.footer p a{text-decoration: none; color: #808080; transition: all 0.3s ease-in-out;}
+.footer p a:hover{color: #FFF;}
+.footer .input-group form input[type="email"]{
+    background:none ;
+    border: 2px solid #FFF;
+    padding: 5PX;
+    outline: 0;
+    display: flex;
+}
+.footer .input-group form input[type="email"]::placeholder{color: #FFF;}
+.footer .input-group form button{
+    color: #FFF;
+    border: 2px solid #FFF;
+    padding: 5px;
+    margin-top: 15px;
+}
+/*end footer css code*/
+
+
+/*start copyright css code*/
+.copy {color: #FFFF;margin-top: 2%;}
+.copy p{margin-top: 16px;}
+.copy ul{list-style: none; display: flex;margin-bottom: 8%;padding-left: 1px;}
+.copy ul li a{
+    font-size: 25px;
+    padding: 12px;
+    border-radius: 50%;
+    color: #808080;
+    background-color: #333333;
+    text-decoration: none;
+    transition: all 0.3S ease-in-out;
+    margin-left: 10px;
+
+}
+.copy ul li a:hover{background-color: #ff4465;color: #FFF;}
+/*end copyright css code*/
+/*start ahmed rights*/
+.ahmed {background-color: #009988;color: #FFF;padding: 15px; font-size: 17px;}
+.ahmed a{text-decoration: none; color: #DDD;}
